@@ -1,0 +1,71 @@
+header{
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+    height: 20px;
+}
+
+#barra{
+  display: flex;
+}
+
+#barra div{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nascosto{
+    display: none;
+}
+
+header a:link {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section div, form{
+    margin: 10px;
+}
+
+#ris_ricerca{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#ris_ricerca img {
+  max-width: 100%;
+}
+
+#ris_ricerca .film{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  /*border: 1px solid slategray;*/
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#cuore_v, #cuore_p {
+  width: 20px;
+  height: 20px;
+}
+
+.orizzontale {
+  display: flex;
+  justify-content:space-between;
+  margin:0px;
+}
+
+.like {
+  display: flex;
+  margin:0px;
+}

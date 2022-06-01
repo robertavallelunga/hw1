@@ -1,0 +1,39 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    margin: 0.3em;
+    
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+span{
+    font-size: small;
+    margin-left: 0.3em;
+}
+
+.rosso {
+    color: red;
+    border-color: red;
+}
+
+html{
+    background: url("registrazione.jpg");
+    background-size: cover;
+}
+
+section{
+    margin-top: 5%;
+    background-color:burlywood;
+    border: 1px solid;
+    border-color: burlywood;
+    border-radius: 5px;
+}
